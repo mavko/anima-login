@@ -97,7 +97,7 @@ export default function Login() {
 						<div className='flex items-center justify-between p-4 bg-slate-800 dark:ring-1 dark:ring-white/10 dark:ring-inset'>
 							Don&apos;t have an account yet?{' '}
 							<button className='px-4 py-2 text-sm font-medium border rounded-lg text-emerald-400 border-emerald-400/50'>
-								Register one here
+								Register here
 							</button>
 						</div>
 					</div>
