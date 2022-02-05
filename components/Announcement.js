@@ -1,5 +1,4 @@
-/* This example requires Tailwind CSS v2.0+ */
-import { SpeakerphoneIcon, XIcon } from '@heroicons/react/outline'
+import { SpeakerphoneIcon } from '@heroicons/react/outline'
 
 export default function Announcement() {
 	return (
