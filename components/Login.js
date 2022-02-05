@@ -36,7 +36,7 @@ export default function Login() {
 									Welcome to Anima
 								</h2>
 								<p className='mb-5 text-left text-slate-400 text-baseline'>
-									Let's get you signed in
+									Let&apos;s get you signed in
 								</p>
 							</div>
 							<input type='hidden' name='remember' defaultValue='true' />
@@ -95,7 +95,7 @@ export default function Login() {
 							</div>
 						</form>
 						<div className='flex items-center justify-between p-4 bg-slate-800 dark:ring-1 dark:ring-white/10 dark:ring-inset'>
-							Don't have an account yet?{' '}
+							Don&apos;t have an account yet?{' '}
 							<button className='px-4 py-2 text-sm font-medium border rounded-lg text-emerald-400 border-emerald-400/50'>
 								Register one here
 							</button>
