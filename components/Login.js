@@ -1,7 +1,7 @@
 import { ChevronDoubleRightIcon } from '@heroicons/react/solid'
 import Image from 'next/image'
 
-import Logo from '../public/assets/logo-full-top.svg'
+import Logo from '../public/assets/anima_logo_green.svg'
 import React from 'react'
 import Announcement from './Announcement'
 export default function Login() {
@@ -10,20 +10,20 @@ export default function Login() {
 			{/*
         Get yo log-on baby
       */}
-			<div className='relative z-30 flex justify-center w-full min-h-full px-4 py-12 mx-auto place-items-center sm:px-6 lg:px-8 justify-items-center'>
+			<div className='relative z-30 flex justify-center w-full min-h-full mx-auto place-items-center justify-items-center'>
 				<div className='w-full max-w-4xl space-y-8'>
 					<div className='mx-auto text-center '>
 						<div className='items-center space-y-6'>
-							<Image src={Logo} alt='Anima' width={320} height={120} />
-							<p className='text-2xl font-light'>
-								Online patient triage for primary care
+							<Image src={Logo} alt='carbonvault' width={60} height={60} />
+							<p className='text-2xl font-medium'>
+								World&apos;s only secure Carbon Seed Vault
 							</p>
 						</div>
 					</div>
 					<div className='max-w-xl pt-2 mx-auto mt-5 mb-8 overflow-hidden shadow-lg first:mt-0 last:mb-0 bg-slate-800 rounded-xl dark:ring-1 dark:ring-white/10 dark:ring-inset'>
 						<div className='flex text-xs leading-6 text-slate-400'>
 							<div className='flex items-center flex-none px-4 py-1 font-medium border-t border-b text-emerald-300 border-t-transparent border-b-emerald-300'>
-								Anima : Login
+								carbonVault : Login
 							</div>
 							<div className='flex items-center flex-auto border rounded-tl bg-slate-700/50 border-slate-500/30'></div>
 						</div>
@@ -32,8 +32,8 @@ export default function Login() {
 							action='#'
 							method='POST'>
 							<div className='space-y-3'>
-								<h2 className='mt-6 text-3xl font-medium text-left text-slate-200'>
-									Welcome to Anima
+								<h2 className='mt-6 text-2xl font-medium text-left text-slate-200'>
+									Welcome to CarbonVault
 								</h2>
 								<p className='mb-5 text-left text-slate-400 text-baseline'>
 									Let&apos;s get you signed in
@@ -97,7 +97,7 @@ export default function Login() {
 						<div className='flex items-center justify-between p-4 bg-slate-800 dark:ring-1 dark:ring-white/10 dark:ring-inset'>
 							Don&apos;t have an account yet?{' '}
 							<button className='px-4 py-2 text-sm font-medium border rounded-lg text-emerald-400 border-emerald-400/50'>
-								Register here
+								Contact administration
 							</button>
 						</div>
 					</div>

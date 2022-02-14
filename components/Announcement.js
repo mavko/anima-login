@@ -13,9 +13,7 @@ export default function Announcement() {
 							/>
 						</span>
 						<p className='mx-3 font-medium text-white '>
-							<span className=''>
-								Latest study on cardivascular health 2021
-							</span>
+							<span className=''>Seed Vault capacity update for 2020-2030</span>
 						</p>
 					</div>
 					<div className='flex-shrink-0 order-3 sm:order-2 sm:w-auto'>
